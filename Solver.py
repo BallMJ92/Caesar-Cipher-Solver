@@ -1,4 +1,4 @@
-class shiftSolver:
+class caesarSolver:
 
     def solve(self, c, s):
         shifts = int(s)
@@ -57,5 +57,7 @@ class shiftSolver:
         self.solve(crypt, shiftInput)
 
 if __name__ == "__main__":
-    caesar = shiftSolver()
+    caesar = caesarSolver()
     caesar.main()
+    
+    
